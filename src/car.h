@@ -5,14 +5,14 @@
 
 #define IN1 13
 #define IN2 12
-#define IN3 2
-#define IN4 A3
+#define IN3 3
+#define IN4 2
 #define ENA 11
-#define ENB 3
+#define ENB 10
 
 #define RIR A1  //right IR sensor input
 #define LIR A2  //left IR sensor input
-//#define ROT A3  //rotary encoder input
+#define ROT A3  //rotary encoder input
 
 
 void send_to_driver(unsigned char bit, int PWML, int PWMR);
